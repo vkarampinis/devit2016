@@ -23,8 +23,8 @@ We use [Bundler](http://bundler.io/) to manage the [Jekyll](http://jekyllrb.com/
 
 * Clone
 ```
-git clone git@github.com:skgtech/devit.git
-cd devit
+git clone git@github.com:skgtech/devit2016.git
+cd devit2016
 ```
 * Install Jekyll and its dependencies
 ```

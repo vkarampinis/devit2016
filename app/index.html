@@ -39,6 +39,36 @@ title: DEVit Conference - Thessaloniki 15 May 2015
 
 </header>
 
+<div id="navigation-wrap" class="navigation-wrap">
+  <div id="navigation" class="navigation">
+    <div class="container">
+      <nav class="navbar navbar-custom" role="navigation">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a href="#tickets" class="register">Buy Tickets!</a>-->
+          <a href="http://2015.devitconf.org" class="register previous">DEVit 2015</a>
+        </div>
+
+        <!--== Site Menu ==-->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#register">Engage</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+</div>
+
 <div class="container content">
   <!--===============================-->
   <!--== About ======================-->
@@ -74,12 +104,26 @@ title: DEVit Conference - Thessaloniki 15 May 2015
   <!--==========-->
 
   <!--===============================-->
+  <!--== Location ===================-->
+  <!--===============================-->
+  <section id="venue" class="wow bounceInUp no-p" data-wow-duration="0.8s" data-wow-delay="0.1s">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="map">
+          <div id="map-canvas"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==========-->
+
+  <!--===============================-->
   <!--== Subscribe & Register =======-->
   <!--===============================-->
   <section id="register" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
     <div class="row">
-      <div class="col-md-offset-3 col-md-6">
-        <div class="section-header text-center">
+      <div class="col-md-6">
+        <div class="section-header">
           <h2><b>Stay</b> Connected!</h2>
         </div>
         <div class="mc-embed-signup">
@@ -99,7 +143,7 @@ title: DEVit Conference - Thessaloniki 15 May 2015
               <div class="form-group">
                 <input type="hidden" value="signup" name="SOURCE">
                 <input type="hidden" value="" name="REF_SOURCE" class="js-signup-ref-source">
-                <button type="submit" class="button button-active pull-right">Keep me in the
+                <button type="submit" class="button button-active">Keep me in the
                   loop!
                 </button>
               </div>
@@ -116,15 +160,6 @@ title: DEVit Conference - Thessaloniki 15 May 2015
           <p>Please confirm your subscription from the email we sent you...</p>
         </div>
       </div>
-    </div>
-  </section>
-  <!--==========-->
-
-  <!--===============================-->
-  <!--== SHARE IT ===================-->
-  <!--===============================-->
-  <section id="shareit" class="wow bounceInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-    <div class="row">
       <div class="col-md-6">
         <div class="section-header">
           <h2><b>Stay in</b> the loop</h2>
@@ -156,10 +191,8 @@ title: DEVit Conference - Thessaloniki 15 May 2015
           </div>
 
         </div>
-      </div>
 
-      <div class="col-md-6">
-        <div class="section-header">
+        <div class="section-header hashtag-section">
           <h2><b>Use the</b> hashtag</h2>
         </div>
         <h3>
@@ -167,19 +200,6 @@ title: DEVit Conference - Thessaloniki 15 May 2015
             #devitconf
           </a>
         </h3>
-      </div>
-    </div>
-  </section>
-
-  <!--===============================-->
-  <!--== Location ===================-->
-  <!--===============================-->
-  <section id="venue" class="wow bounceInUp no-p" data-wow-duration="0.8s" data-wow-delay="0.1s">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="map">
-          <div id="map-canvas"></div>
-        </div>
       </div>
     </div>
   </section>

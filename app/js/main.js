@@ -13,10 +13,10 @@
       fn.MainSliderAlign();
       fn.MainSlider();
       //fn.Stellar();
-      //fn.Navigation();
+      fn.Navigation();
       fn.Carousel();
       //fn.Slider();
-      //fn.Menu();
+      fn.Menu();
       fn.Wow();
       //fn.StickyMenu();
       fn.RegisterForm();

@@ -18,7 +18,7 @@
       //fn.Slider();
       fn.Menu();
       fn.Wow();
-      //fn.StickyMenu();
+      fn.StickyMenu();
       fn.RegisterForm();
       fn.SubscribeForm();
       fn.Apps();

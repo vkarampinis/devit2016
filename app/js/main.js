@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  var venueAddress = "40.6384089,22.9144643",
+  var venueAddress = "Leoforos Megalou Alexandrou 2, Thessaloniki, 546 40, Greece",
     luxembourgHotelAddress = "Komninon 6, 546 24 Thessaloniki Greece",
     metropolitanHotelAddress = "65, Vas. Olga's Avenue & Fleming , 546 42 Thessaloniki";
 
